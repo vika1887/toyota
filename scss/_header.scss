@@ -1,0 +1,21 @@
+.page-header {
+  margin: 0;
+  padding-bottom: 0;
+  border-bottom: medium none;
+  h2 {
+    display: inline-block;
+    margin: 50px 10px 10px;
+    font-size: 25px;
+    color: #ca3e38;
+  }
+}
+
+.navbar-nav {
+  & > li {
+    float: left;
+    margin: 0 26px 0;
+    font-size: 26px;
+  }
+}
+
+

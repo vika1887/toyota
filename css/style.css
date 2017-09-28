@@ -1,0 +1,80 @@
+.navbar {
+  height: 105px;
+  background: url(../images/bg_header.png); }
+  .navbar-nav > li > a {
+    margin-top: 40px;
+    color: #000000 !important; }
+    .navbar-nav > li > a:hover {
+      color: #ca3e38 !important;
+      background-color: transparent; }
+    .navbar-nav > li > a:after {
+      position: relative;
+      left: 30%;
+      display: block;
+      margin-top: 10px;
+      content: "";
+      height: 2px;
+      width: 30px;
+      background-color: #ca3e38; }
+
+.navbar-nav > .open > a {
+  background-color: transparent !important; }
+
+.dropdown-menu {
+  margin: 2px 0 0;
+  padding: 1px 0;
+  min-width: 100px !important;
+  font-size: 25px;
+  background: url(../images/bg_header.png);
+  -webkit-background-clip: padding-box;
+  border: none;
+  border-radius: 4px;
+  -webkit-box-shadow: 7px 10px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 7px 10px 5px rgba(0, 0, 0, 0.5); }
+  .dropdown-menu li {
+    color: #333333; }
+    .dropdown-menu li a {
+      padding: 10px 30px; }
+      .dropdown-menu li a:hover {
+        background: url("../images/bg_li.png"); }
+
+body {
+  overflow-x: hidden;
+  font-size: 16px;
+  font-family: "RobotoRegular", Helvetica, Arial, sans-serif;
+  line-height: 1.5; }
+
+.page-header {
+  margin: 0;
+  padding-bottom: 0;
+  border-bottom: medium none; }
+  .page-header h2 {
+    display: inline-block;
+    margin: 50px 10px 10px;
+    font-size: 25px;
+    color: #ca3e38; }
+
+.navbar-nav > li {
+  float: left;
+  margin: 0 26px 0;
+  font-size: 26px; }
+
+.home-content {
+  margin-top: 100px; }
+
+.home-banner {
+  background: -webkit-radial-gradient(center ellipse, #f695bf 0%, #725a96 43%, #0c1727 100%);
+  background: -o-radial-gradient(center ellipse, #f695bf 0%, #725a96 43%, #0c1727 100%);
+  background: radial-gradient(ellipse at center, #f695bf 0%, #725a96 43%, #0c1727 100%); }
+
+.home-social {
+  float: right;
+  vertical-align: top;
+  width: 25%;
+  height: 31%;
+  padding: 0 0 10px 50px;
+  font-family: 'Helvetica NeueCyr-Roman', sans-serif;
+  line-height: 3em;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 2px solid #faf5f8;
+  border-radius: 5px; }
